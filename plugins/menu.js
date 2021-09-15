@@ -10,42 +10,39 @@ let tags = {
   'quotes': 'Quotes',
   'admin': 'Admin',
   'group': 'Group',
-  'premium': 'Premium',
   'internet': 'Internet',
   'anonymous': 'Anonymous Chat',
   'nulis': 'MagerNulis & Logo',
   'downloader': 'Downloader',
   'tools': 'Tools',
   'fun': 'Fun',
-  'database': 'Database',
   'vote': 'Voting',
   'absen': 'Absen',
   'quran': 'Al Qur\'an',
-  'jadibot': 'Jadi Bot',
   'owner': 'Owner',
   'host': 'Host',
   'advanced': 'Advanced',
   'info': 'Info',
-  '': 'No Category',
+  'Another menu': 'No Category',
 }
 const defaultMenu = {
   before: `
 ╭─「 %me 」
-│ Hai, %name!
-│
-│ Tersisa *%limit Limit*
-│ Role *%role*
-│ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
+│ Hai, %name! 
+│ *profile*
+│ • tersisa *%limit Limit*
+│ • Role *%role*
+│ • Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
 │ %totalexp XP in Total
-│ 
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
-│
-│ Uptime: *%uptime (%muptime)*
-│ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
+│ *waktu hari ini*
+│ • Tanggal: *%week %weton, %date*
+│ • Tanggal Islam: *%dateIslamic*
+│ • Waktu: *%time*
+│ *tentang bot*
+│ • Uptime: *%uptime (%muptime)*
+│ • Database: %rtotalreg of %totalreg
+│ • thanks to : 
+│   %github
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
